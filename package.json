@@ -1,0 +1,67 @@
+{
+  "_from": "git+https://github.com/tza17313/m3u8Downloader.git#61084d6481752308c6b5eb66d886dbe891d7b4da",
+  "_id": "m3u8-multi-thread-downloader@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/m3u8-multi-thread-downloader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "m3u8-multi-thread-downloader@git+https://github.com/tza17313/m3u8Downloader.git#61084d6481752308c6b5eb66d886dbe891d7b4da",
+    "name": "m3u8-multi-thread-downloader",
+    "escapedName": "m3u8-multi-thread-downloader",
+    "rawSpec": "git+https://github.com/tza17313/m3u8Downloader.git#61084d6481752308c6b5eb66d886dbe891d7b4da",
+    "saveSpec": "git+https://github.com/tza17313/m3u8Downloader.git#61084d6481752308c6b5eb66d886dbe891d7b4da",
+    "fetchSpec": "https://github.com/tza17313/m3u8Downloader.git",
+    "gitCommittish": "61084d6481752308c6b5eb66d886dbe891d7b4da"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/tza17313/m3u8Downloader.git#61084d6481752308c6b5eb66d886dbe891d7b4da",
+  "_spec": "m3u8-multi-thread-downloader@git+https://github.com/tza17313/m3u8Downloader.git#61084d6481752308c6b5eb66d886dbe891d7b4da",
+  "_where": "/Users/rayleigh/dev/s/spider",
+  "author": {
+    "name": "sahadev"
+  },
+  "bugs": {
+    "url": "https://github.com/sahadev/m3u8Downloader/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "arg": "^4.1.3",
+    "axios": "^0.19.2",
+    "glob": "^7.1.6",
+    "md5": "^2.2.1",
+    "progress": "^2.0.3",
+    "url": "^0.11.0"
+  },
+  "deprecated": false,
+  "description": "use node.js download m3u8 to mp4 by thread pool.",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "homepage": "https://github.com/sahadev/m3u8Downloader#readme",
+  "keywords": [
+    "m3u8",
+    "download",
+    "mp4",
+    "threadpool"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "m3u8-multi-thread-downloader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahadev/m3u8Downloader.git"
+  },
+  "scripts": {
+    "format": "prettier --write ./",
+    "singleFileDownload": "node --experimental-worker downloadFile.js",
+    "test": "node --experimental-worker test.js"
+  },
+  "version": "1.0.1"
+}
